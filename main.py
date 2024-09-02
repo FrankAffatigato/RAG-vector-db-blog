@@ -34,5 +34,5 @@ if __name__ == "__main__":
 
     result = retrieval_chain.invoke(input={"input": query})
 
-    print(result['answer'])
+    print(result)
 
